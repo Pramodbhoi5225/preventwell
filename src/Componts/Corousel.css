@@ -1,0 +1,68 @@
+.schedule-description {
+  color: #fff;
+ 
+}
+.single-schedule:hover{
+  transform: translateY(-10px);
+}
+.schedule{
+  cursor: pointer;
+}
+.corouselImage{
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+
+.carousel-container {
+   width: 100%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .corouselImage {
+    height: 600px;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    padding: 5px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .carousel-caption h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #2C2D3F;
+    z-index: 40px;
+    
+  }
+  
+  .carousel-caption h1 span {
+    color: #007bff; 
+  }
+  
+  .carousel-caption p {
+    font-size: 1.2em;
+   color: #2C2D3F;
+  }
+  
+  .button .btn {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  

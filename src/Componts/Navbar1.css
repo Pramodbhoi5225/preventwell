@@ -1,0 +1,165 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+
+.nav-ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-ul li {
+  margin: 0 10px;
+}
+
+.nav-ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14x;
+}
+.nav-ul li a:hover{
+ color: blue;
+}
+
+
+.nav-link-2{
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  font-size: 15px;
+
+}
+.faphone{
+  color: #007bff;
+}
+.anchor{
+  color: black;
+ 
+}
+
+.navbar-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.top-link {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.top-link-dd {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.top-link-dd li {
+  margin: 0 10px;
+  font-size: 14px;
+}
+.navbarr:hover {
+
+   color: #1A76D1;
+   text-decoration: underline;
+  }
+  li.active .navbarr{
+    color: #1A76D1; 
+  }
+
+
+.top-link-dd li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.book-appointment {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar-2 {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .top-link {
+      order: 2;
+      width: 100%;
+  }
+
+  .top-link-dd {
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .top-link-dd li {
+      margin: 10px 0;
+  }
+
+  .button {
+      width: 100%;
+      justify-content: center;
+      order: 3;
+  }
+
+  .logo {
+      order: 1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-link-dd {
+      display: none;
+  }
+
+  .top-link.active .top-link-dd {
+      display: flex;
+  }
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+      display: flex;
+  }
+}

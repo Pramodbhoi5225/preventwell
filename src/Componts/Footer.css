@@ -1,0 +1,148 @@
+/* Custom CSS for footer */
+
+.footer {
+    padding: 50px 0;
+    /* border: 1px solid red; */
+    background-color: #1A76D1;
+}
+
+.footer-top {
+  
+    padding: 40px 0;
+    
+}
+
+.single-footer h2 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.single-footer p {
+    color: #fff;
+
+}
+
+.social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social li a {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.social li a:hover {
+    color: #17a2b8;
+}
+
+.time-sidual .day {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.time-sidual span {
+    color: #cccccc;
+}
+
+.newsletter-inner .common-input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    margin-bottom: 10px;
+
+    background: transparent;
+    border: 1px solid black;
+    height: 50px;
+    line-height: 42px;
+    width: 100%;
+    margin-right: 15px;
+    color: #fff;
+    padding-left: 18px;
+    padding-right: 70px;
+    display: inline-block;
+    float: left;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.newsletter-inner .button {
+    padding: 10px 15px;
+    /* background-color: #17a2b8; */
+    border: none;
+    color: #ffffff;
+ 
+
+}
+.newsletter-inner .button i
+.newsletter-inner .button:hover {
+    background-color: #117a8b;
+    /* border: 1px solid red; */
+}
+.fontawesomee{
+    background-color: red;
+}
+/* Copyright text */
+.py-3 {
+    background-color: #292b2c;
+    color: #ffffff;
+}
+
+.hhdjjd{
+    color: white;
+    
+}
+.hhdjjd a{
+    color: #fff;
+}
+ .copyright{
+    /* border: 1px solid red; */
+    background: #2d77c1;
+ }
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.copyright-content{
+   background: #1A76D1;
+   /* border: 1px solid red; */
+}
+.copyright-content p{
+  color: #ffffff;
+   text-align: center;
+}
+.buhhhehtton{
+    color: red;
+}
+ .newsletter-inner .button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    background: #fff;
+    border-left: 1px solid #fff;
+    text-shadow: none;
+    box-shadow: none;
+    display: inline-block;
+    border-radius: 0px;
+    border: none;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    border-radius: 0 5px 5px 0;
+    color: #1A76D1;
+    font-size: 25px;
+}
+@media only screen and (max-width: 767px) {
+    .footer .copyright {
+        padding: 20px 0;
+    }
+}
